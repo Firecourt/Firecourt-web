@@ -1,63 +1,114 @@
-/* Improved CSS styling */
+/* General Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
 body {
-    margin: 0;
-    background-color: #f5f5f5; /* Light gray background */
-    font-family: Arial, sans-serif; /* Professional font */
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
-.menubar {
-    background-color: #333; /* Dark gray menu bar */
-    color: #fff; /* White text */
-    padding: 20px;
-    display: flex;
-    justify-content: space-between; /* Align items horizontally */
-    align-items: center; /* Center items vertically */
+/* Main Content */
+.content {
+    flex: 1; /* Pushes footer to the bottom */
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-}
-
-.options {
-    list-style: none;
-    padding: 0;
-    text-align: right;
-}
-
-.options li {
-    display: inline;
-    margin-left: 20px;
-}
-
-.options li:first-child {
-    margin-left: 0;
-}
-
-.options a {
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.title {
-    margin: 0;
-}
-
+/* Footer */
 .footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    margin-top: auto;
+    background-color: #000; /* Black background for footer */
+    color: #ffffff; /* White text color */
+    border-top: 2px solid #3b0060; /* Darker indigo border */
+    padding: 2rem; /* Increased padding for better spacing */
+    display: flex; /* Use flexbox to align items */
+    flex-direction: column; /* Stack items vertically */
+    gap: 2rem; /* Spacing between rows */
+    min-height: 10vh; /* Minimum height of 10vh */
+    position: relative; /* Ensure it stays at the bottom */
 }
 
-.foptions {
-    margin-top: 10px;
-    list-style: none;
+/* General Row Style */
+.footer .row {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 2rem; /* Spacing between items */
+}
+
+/* Search Row */
+.footer .search-row {
+    justify-content: center;
+}
+
+/* Address and Logo */
+.footer .address-logo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer .address-logo .logo-column img {
+    max-width: 200px;
+    filter: brightness(0.8); /* Slightly dim the logo for a cohesive look */
+}
+
+/* Social Media Links */
+.footer .social-media {
+    justify-content: center; /* Center social media icons horizontally */
+}
+
+.footer .social-media .col {
+    display: flex;
+    gap: 1rem; /* Space between icons */
+}
+
+/* Policies Links */
+.footer .policies-links {
+    justify-content: center; /* Center policies links horizontally */
+}
+
+.footer .policies-links .col {
+    display: flex;
+    gap: 1rem; /* Space between links */
+}
+
+/* Extra Info (Contact, About Us, Credits) */
+.footer .extra-info {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .extra-info .col {
+    text-align: center;
+}
+
+.footer .form-control {
+    background-color: #333; /* Dark background for search input */
+    border: 1px solid #555; /* Light border */
+    color: #ffffff; /* White text */
+    max-width: 400px;
+}
+
+.footer a {
+    color: #ffeb3b; /* Highlight links with a warm color */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ffff00; /* Slightly lighter color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .footer .row {
+        flex-direction: column; /* Stack rows vertically on smaller screens */
+    }
+
+    .footer .form-control {
+        max-width: 100%;
+    }
 }

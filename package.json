@@ -1,0 +1,25 @@
+{
+  "name": "firecourt-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firecourtcorp/Firecourt-web.git"
+  },
+  "author": "Firecourt Corp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firecourtcorp/Firecourt-web/issues"
+  },
+  "homepage": "https://github.com/firecourtcorp/Firecourt-web#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "nuxt": "^3.12.4",
+    "react": "^18.3.1",
+    "vue": "^3.4.38"
+  }
+}

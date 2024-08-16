@@ -1,54 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/index.css">
-    <title >Firecourt Corp - Elevating Your Music Production</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="title" content="Firecourt Corp - Home">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- Page Title -->
+    <title>Firecourt Corp</title>
 </head>
 <body>
-<header>
-    <div class="menubar" id="menubar">
-        <a href="index.html"><h1 class="title logo">Firecourt Corp</h1></a>
-        <ul class="options">
-            <li><a href="pages/SignIn/SignIn.html" class="account">Sign in/Sign up</a></li>
-            <li><a href="pages/Home.html" class="Home">Home</a></li>
-            <li><a href="pages/Features.html" class="Features">Features</a></li>
-            <li><a href="pages/Download.html" class="Download">Download</a></li>
-            <li><a href="pages/Support.html" class="Support">Support</a></li>
-            <li><a href="pages/Store.html" class="Store">Store</a></li>
-        </ul>
-    </div>
-</header>    
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Brand Logo and Name -->
+            <a class="navbar-brand" href="#">Firecourt Corp</a>
 
-<div id="content">
-    <section class="main-section">
-        <!-- Highlighting the professionalism and features of Firecourt Studio -->
-        <div class="post">
-            <h2 class="post-title">Welcome to Firecourt Studio</h2>
-            <p class="post-description">Experience the pinnacle of music production with Firecourt Studio. Designed for professionals, our digital audio workstation empowers you to create, mix, and master with precision.</p>
-            <a href="pages/Features.html" class="post-link">Explore Features</a>
+            <!-- Navbar Toggler for Mobile View -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Brand Image (Logo) -->
+            <img src="/images/favicon-32x32.png" alt="Logo">
+
+            <!-- Collapsible Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- News Dropdown Menu -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-news" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            News
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-menu-news">
+                            <li><a class="dropdown-item" href="#">Events</a></li>
+                            <li><a class="dropdown-item" href="#">Stocks</a></li>
+                            <li><a class="dropdown-item" href="#">Podcasts</a></li>
+                            <li><a class="dropdown-item" href="#">Features</a></li>
+                        </ul>
+                    </li>
+                    <!-- Store Dropdown Menu -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-store" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Store
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-menu-store">
+                            <li><a class="dropdown-item" href="#">Hardware</a></li>
+                            <li><a class="dropdown-item" href="#">Software</a></li>
+                            <li><a class="dropdown-item" href="#">Merch</a></li>
+                            <li><a class="dropdown-item" href="#">Accessories</a></li>
+                        </ul>
+                    </li>
+                    <!-- Download Dropdown Menu -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-download" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Download
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-menu-download">
+                            <li><a class="dropdown-item" href="#">x86</a></li>
+                            <li><a class="dropdown-item" href="#">Apple Silicon</a></li>
+                            <li><a class="dropdown-item" href="#">RPI</a></li>
+                        </ul>
+                    </li>
+                    <!-- Sign In Link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/SignIn/SignIn.html">
+                            <i class="fas fa-sign-in-alt"></i> Sign In
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="post">
-            <h2 class="post-title">Unleash Your Creativity</h2>
-            <p class="post-description">From intuitive workflow enhancements to advanced mixing tools, Firecourt Studio provides everything you need to bring your musical vision to life.</p>
-            <a href="pages/Download.html" class="post-link">Download Now</a>
-        </div>
-    </section>
-</div>
+    </nav>
 
-
-    <div class="footer">
-        <ul class="foptions">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-        </ul>
-        <br/>
-
-        <p>&copy; 2024 Firecourt Corp. All rights reserved.</p>
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Your main page content goes here -->
     </div>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Row 1: Search, Contact Us, Logo -->
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Search...">
+            </div>
+            <div class="col">
+                <a href="mailto:contact@firecourt.com" class="footer-contact">Contact Us</a>
+            </div>
+            <div class="col">
+                <img src="/images/company-logo.png" alt="Firecourt Corp Logo" class="img-fluid footer-logo">
+            </div>
+        </div>
+
+        <!-- Row 2: Social Media Icons, About Us, Address -->
+        <div class="row">
+            <div class="col social-media">
+                <a href="#" class="me-2"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#" class="me-2"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#" class="me-2"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="#" class="me-2"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+            <div class="col">
+                <a href="#" class="footer-about">About Us</a>
+            </div>
+            <div class="col">
+                <p>Address: 123 Firecourt Street, Suite 100, City, Country</p>
+            </div>
+        </div>
+
+        <!-- Row 3: Policies, Credits, Email -->
+        <div class="row">
+            <div class="col policies-links">
+                <a href="#" class="me-3">Privacy Policy</a>
+                <a href="#" class="me-3">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+            <div class="col">
+                <a href="#" class="footer-credits">Credits</a>
+            </div>
+            <div class="col">
+                <p>Email: <a href="mailto:contact@firecourt.com" class="footer-email">contact@firecourt.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <!-- Bootstrap JS and Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="./Scripts/index.js"></script>
 </body>
 </html>
