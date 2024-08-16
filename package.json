@@ -18,6 +18,7 @@
   "homepage": "https://github.com/firecourtcorp/Firecourt-web#readme",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "html-to-vue": "^1.4.0",
     "nuxt": "^3.12.4",
     "react": "^18.3.1",
     "vue": "^3.4.38"
