@@ -1,0 +1,74 @@
+/* Navigation Bar Styles */.navbar {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar-brandimg {
+  width: 32px; /* Adjust the size as needed */height: 32px; /* Adjust the size as needed */margin-right: 0.5rem;
+}
+
+.navbar-toggler {
+  border: none;
+  background: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url('/path/to/toggler-icon.svg'); /* Add path to your icon */background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-nav.nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  color: #333;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.5rem1rem;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.nav-item.dropdown.dropdown-menu {
+  border: 1px solid #e1e1e1;
+  border-radius: 0.25rem;
+  box-shadow: 00.125rem0.25remrgba(0, 0, 0, 0.075);
+}
+
+.dropdown-item {
+  color: #333;
+  padding: 0.5rem1rem;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #007bff;
+}
+
+.fas {
+  margin-right: 0.5rem;
+}
+
+/* Responsive Styles */@media (max-width: 992px) {
+  .navbar-nav {
+      text-align: center;
+  }
+
+  .navbar-nav.nav-item {
+      margin-left: 0;
+      margin-top: 0.5rem;
+  }
+}
