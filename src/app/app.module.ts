@@ -13,6 +13,9 @@ import { SignUpComponent } from'./sign-up/sign-up.component';
 import { StoreComponent } from'./store/store.component';
 import { routes } from'./app.routes';
 import { bootstrapApplication } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { bootstrapApplication } from '@angular/platform-browser';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes) // Configure RouterModule with routes
+    RouterModule.forRoot(routes),// Configure RouterModule with routes
+    ReactiveFormsModule,
+
+    // Add other imports if necessary
   ],
   providers: [],
 

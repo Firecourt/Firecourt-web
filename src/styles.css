@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+/* Ensure the whole page takes up the full height of the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Main layout wrapper */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure the app content takes up all available space */
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Ensure the main content area expands to fill space between header and footer */
+.content {
+  flex-grow: 1;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
