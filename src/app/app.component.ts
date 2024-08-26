@@ -5,6 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { environment } from '../environments/environment';
 
+
 @Component({
   selector: 'app-root',
   standalone:true,
