@@ -14,6 +14,7 @@ import { StoreComponent } from'./store/store.component';
 import { routes } from'./app.routes';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -29,6 +30,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     StoreComponent
   ],
   imports: [
+
+    HttpClientModule,
     BrowserModule,
     RouterModule.forRoot(routes),// Configure RouterModule with routes
     ReactiveFormsModule,
