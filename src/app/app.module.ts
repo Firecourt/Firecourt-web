@@ -5,7 +5,7 @@ import { AppComponent } from'./app.component';
 import { HeaderComponent } from'./header/header.component';
 import { FooterComponent } from'./footer/footer.component';
 import { HomeComponent } from'./home/home.component';
-import { DownloadComponent } from'./download/download.component';
+
 import { MediaComponent } from'./media/media.component';
 import { NewsComponent } from'./news/news.component';
 import { SignInComponent } from'./sign-in/sign-in.component';
@@ -22,7 +22,7 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
 
 
-    DownloadComponent,
+ 
     MediaComponent,
     NewsComponent,
     SignInComponent,

@@ -7,12 +7,12 @@
   display: flex; /* Use flexbox to align items */
   flex-direction: column; /* Stack items vertically */
   gap: 2rem; /* Spacing between rows */
-  min-height: 10vh; /* Minimum height of 10vh */
+  min-height: 8vh; /* Minimum height of 10vh */
   position: relative; /* Ensure it stays at the bottom */
 }
 
 /* General Row Style */
-.footer .row {
+.footer .row {  
   display: flex;
   justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
